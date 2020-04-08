@@ -231,7 +231,6 @@
       margin-top: 0;
       margin-left: 0;
   
-     
     }
    nav {
     float: none;
@@ -253,21 +252,22 @@
       float: none;
       width: 100%;
       padding: 10px;
-      margin: 10px 0 15px;
+      margin: 0;
       font-size: 20px;
     }
 
   #main-container {
-    padding: 10px;
+    padding: 150px;
     padding-top: 10px;
-    min-height: calc(100vh - 60px);
+    margin-left: 60px;
+    width: 770px;
   }
 
   .auth-image {
-    width: 420px;
+    width: 370px;
     height: auto;
     float: none;
-    margin-left: 60px;
+    margin-left: 0px;
     
   }
   
@@ -278,7 +278,7 @@
     }
 
   footer {
-    margin-top: 150px;
+    margin-top: 90px;
   }
   }
 
@@ -305,8 +305,7 @@
     #main-container {
       padding: 10px;
       padding-top: 10px;
-      min-height: calc(100vh - 60px);
-    }
+      }
 
     nav a {
       display: inline-block;
@@ -322,9 +321,29 @@
   }
 
   @media screen and (max-width: 980px) {
+    #masthead {
+      position: static;
+      width: 100%;
+      margin-left: 10px;
+    }
+    
+    #main-container {
+      padding-top: 10px;
+      padding-right: 270px;
+      margin-left: 50px;
+    }
 
+    footer {
+      margin-top: 687px;
+    }
 
-
-
+    .main-section {
+      width: 100%;
+      padding: 30px;
+      margin: 0 0 40px;
+      font-size: 18px;
+      line-height: 30px;
+      
+    }
   }
 
