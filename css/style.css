@@ -278,7 +278,7 @@
     }
 
   footer {
-    margin-top: 90px;
+    margin-top: 5px;
   }
   }
 
@@ -322,13 +322,12 @@
 
   @media screen and (max-width: 980px) {
     #masthead {
-      position: static;
       width: 100%;
       margin-left: 10px;
     }
     
     #main-container {
-      padding-top: 10px;
+      padding-top: 60px;
       padding-right: 270px;
       margin-left: 50px;
     }
