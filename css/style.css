@@ -153,6 +153,23 @@
     border: 0 none;
     opacity: 0.8;
   }
+
+  #trivia {
+    width: 275px;
+    height: auto;
+  }
+
+  #giphy {
+    width: 275px;
+    height: auto;
+  }
+
+  #colab {
+    width: 275px;
+    height: auto;
+  }
+
+  
   
   .work h3 {
     position: absolute;
@@ -166,6 +183,7 @@
     text-align: center;
     background: #4aaaa5;
     border-bottom: 0;
+    z-index: 2;
   }
   
   .auth-image {
